@@ -13,9 +13,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TopDev.Infra.IoC", "TopDev.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TopDev.Ui.Mvc", "TopDev.Ui.Mvc", "{8E108603-401F-4363-826B-1BAC045044D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopDev.Mvc", "TopDev.Mvc\TopDev.Mvc.csproj", "{855569C5-03AC-41BE-B939-309F5668C270}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{855569C5-03AC-41BE-B939-309F5668C270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{855569C5-03AC-41BE-B939-309F5668C270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{855569C5-03AC-41BE-B939-309F5668C270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{855569C5-03AC-41BE-B939-309F5668C270}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{855569C5-03AC-41BE-B939-309F5668C270} = {8E108603-401F-4363-826B-1BAC045044D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4105836F-49DF-4518-B3E8-F7F33073B93D}
